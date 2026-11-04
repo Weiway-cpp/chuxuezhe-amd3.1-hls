@@ -1,0 +1,13 @@
+{
+  "base_url": "http://127.0.0.1:11434/v1",
+  "model": "qwen2.5-coder-32k:latest",
+  "max_tokens": 8192,
+  "temperature": 0.1,
+  "context_tokens": 32768,
+  "max_prompt_chars": 18000,
+  "api_key_env": "HLS_API_KEY",
+  "selftest_review": false,
+  "design_first": true,
+  "reference_selftest": true,
+  "public_interface_check": true
+}

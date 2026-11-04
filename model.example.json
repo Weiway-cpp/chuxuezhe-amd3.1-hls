@@ -1,0 +1,15 @@
+{
+  "base_url": "http://127.0.0.1:8000/v1",
+  "model": "REPLACE_WITH_SERVED_MODEL_NAME",
+  "max_tokens": 8192,
+  "temperature": 0.1,
+  "context_tokens": 32768,
+  "max_prompt_chars": 18000,
+  "api_key_env": "HLS_API_KEY",
+  "selftest_review": false,
+  "design_first": true,
+  "reference_selftest": true,
+  "public_interface_check": true,
+  "fast_csim": true,
+  "portfolio_candidates": 3
+}

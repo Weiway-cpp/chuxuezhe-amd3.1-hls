@@ -1,0 +1,30 @@
+{
+  "version": "v45",
+  "date": "2026-11-04",
+  "scope": "packaging_only",
+  "original_source_manifest_files_checked": 777,
+  "original_upstream_manifest_files_checked": 1140,
+  "runtime_files_byte_identical": 50,
+  "official_baseline_byte_identical": true,
+  "python_modules_parsed_and_imported": 35,
+  "config_templates_validated": 2,
+  "cli_help_checks": [
+    "agent.competition",
+    "submission.assets",
+    "submission.task",
+    "serve.offline",
+    "serve.competition_api",
+    "serve.gpu_telemetry",
+    "scripts.verify_hls"
+  ],
+  "markdown_local_links_checked": 20,
+  "docker_copy_paths_checked": true,
+  "shell_bytes_unchanged_lf": true,
+  "full_unit_tests_rerun": false,
+  "model_tests_rerun": false,
+  "vitis_run": false,
+  "docker_build": false,
+  "ready_for_submission": false,
+  "source_validation_version": "v39",
+  "source_validation_applies_to_current_runtime": false
+}

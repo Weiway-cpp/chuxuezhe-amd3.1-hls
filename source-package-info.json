@@ -1,0 +1,28 @@
+{
+  "version": "v45",
+  "implementation_version": "v45",
+  "date": "2026-11-04",
+  "release_kind": "final_generalize_budget_and_binding_fixes",
+  "comparison_base": "v44-generalize",
+  "base_package_sha256": "82149439580a44804ec181c36e5341b589b041cfde87bfbf04b7a200c5cf80a2",
+  "required_vitis": "2025.2",
+  "rules_revision": "2c242fd74d1ed3e67ca065ab0868ef07478e8fdc",
+  "hls_eval_revision": "e373bc0a005f0a6030f77f27b3f0d71b16a35a0b",
+  "hls_eval_tasks": 122,
+  "hls_eval_families": 9,
+  "generation_policy_changed_from_base": true,
+  "calibration_binding_modules_changed": [
+    "agent/runner.py"
+  ],
+  "calibration_reference_behavior_changed": false,
+  "calibration_reuse": "Exact audited solver-only hash transition; full raw evidence checks still required",
+  "external_timeout_classification_changed": false,
+  "official_baseline_and_pinned_upstream_changed": false,
+  "model_weights_included": false,
+  "historical_raw_runs_included": false,
+  "ready_for_submission": false,
+  "v37_real_model_gain_measured": false,
+  "v38_real_model_gain_measured": false,
+  "release_date": "2026-11-04",
+  "v39_real_model_gain_measured": false
+}

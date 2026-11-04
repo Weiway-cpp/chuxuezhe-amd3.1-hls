@@ -1,0 +1,11 @@
+{
+  "version": "v45",
+  "implementation_version": "v45",
+  "date": "2026-11-04",
+  "release_kind": "final_submission_source_package",
+  "source_filename": "Project-agent-v45.zip",
+  "source_sha256": "1f42b2c558b910e30785221ae3fdb4bb1146d029c7e3f0413d02ee5ea890374f",
+  "runtime_modified_during_packaging": false,
+  "model_weights_included": false,
+  "ready_for_submission": false
+}

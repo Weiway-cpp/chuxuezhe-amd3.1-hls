@@ -1,0 +1,5 @@
+*.sh text eol=lf
+baseline.py text eol=lf
+# Preserve pinned benchmark byte hashes and POSIX data readers on Windows.
+third_party/hls-eval-pinned/** -text
+benchmarks/hls_eval/** -text

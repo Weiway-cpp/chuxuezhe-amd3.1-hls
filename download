@@ -1,0 +1,8 @@
+runs/
+third_party/
+benchmarks/
+tests/
+**/__pycache__/
+config/model.local.json
+.env
+.git/

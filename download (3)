@@ -1,0 +1,9 @@
+runs/
+models/
+__pycache__/
+*.pyc
+.env
+config/model.local.json
+
+# Pinned public development datasets are restored using their hash manifest.
+third_party/

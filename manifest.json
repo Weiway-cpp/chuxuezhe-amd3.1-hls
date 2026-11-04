@@ -1,0 +1,68 @@
+{
+  "schema_version": 1,
+  "track": "hls",
+  "rules_revision": "2c242fd74d1ed3e67ca065ab0868ef07478e8fdc",
+  "model": {
+    "name": "qwen2.5-coder:32b",
+    "source": "https://ollama.com/library/qwen2.5-coder:32b",
+    "revision": null,
+    "quantization": "Q4_K_M",
+    "measured_vram_gb": null,
+    "finetuned": false,
+    "finetune_weights_url": null,
+    "served_model_id": "qwen2.5-coder-32k:latest",
+    "reported_model_vram_gb": null,
+    "ollama_digest": null,
+    "observed_model_allocation_bytes": null,
+    "deployment_verified": false
+  },
+  "context": {
+    "max_model_len": 32768,
+    "max_output_tokens": 8192,
+    "rope_scaling": null,
+    "note": "Template limits; effective phase budgets and laboratory/default differences are described in REPORT.md."
+  },
+  "serving": {
+    "backend": "ollama",
+    "version": null,
+    "start_command": null,
+    "port": 11434
+  },
+  "endpoints": {
+    "solve": "./run.sh",
+    "baseline": "./run_baseline.sh",
+    "http_port": 7860,
+    "http_module": "serve.competition_api"
+  },
+  "project_version": "v45",
+  "implementation_version": "v45",
+  "release_date": "2026-11-04",
+  "release_kind": "final_submission_source_package",
+  "ready_for_submission": false,
+  "agent": {
+    "default_max_rounds": 3,
+    "max_rounds_environment": "AGENT_MAX_ROUNDS",
+    "configuration_templates_unchanged": true,
+    "regeneration_max_tokens_default": 4096,
+    "regeneration_max_tokens_clamped_to_configured_max_tokens": true
+  },
+  "environment": {
+    "required_vitis": "2025.2",
+    "part": "xczu3eg-sbva484-1-e",
+    "clock_ns": 5,
+    "official_base_image": null,
+    "offline_container_verified": false
+  },
+  "packaging": {
+    "runtime_code_modified": false,
+    "runtime_configs_modified": false,
+    "source_archive_sha256": "1f42b2c558b910e30785221ae3fdb4bb1146d029c7e3f0413d02ee5ea890374f"
+  },
+  "evidence": {
+    "packaging": "PACKAGING.json",
+    "validation": "VALIDATION.json",
+    "historical_lab_report": "docs/evidence/v44-lab-report.txt",
+    "current_model_gain_measured": false,
+    "official_score": null
+  }
+}
